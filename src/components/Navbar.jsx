@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { useAuth } from '../contexts/Authcontext';
-
+import img1 from '../assets/counsel2.png'
 function Navbar() {
     const { logout } = useAuth()
     
   return (
     <div>
       <div className="flex justify-around items-center bg-slate-400 p-4 rounded-md">
-        <div className="text-2xl font-bold font-serif">MY LOGO</div>
+        <div className="text-2xl font-bold font-serif"><img src={img1} alt="" /></div>
         <div className="flex justify-around gap-5 items-center">
           <div>
             <NavLink
