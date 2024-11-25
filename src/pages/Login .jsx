@@ -94,6 +94,12 @@ function Login() {
             >
               {isLoading ? "Logging In..." : "LOG IN"}
             </button>
+            <p className="text-sm text-gray-700">
+              Didn't have an account?
+              <a href="/signup" className="text-blue-700 font-medium underline">
+                Click here
+              </a>
+            </p>
           </div>
         </form>
       </div>

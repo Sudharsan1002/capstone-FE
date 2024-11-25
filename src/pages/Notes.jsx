@@ -72,7 +72,7 @@ function Notes() {
           <div>
             {notes.length > 0 ? (
               notes.map((note) => (
-                <div key={note._id} className="border p-4 my-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                <div key={note._id} className="border p-4 my-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center bg-orange-50">
                   <p>{note.notes}</p>
                   <p className="text-sm text-gray-500">
                     Added by: {note.counselorId?.name}
